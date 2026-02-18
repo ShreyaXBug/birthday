@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Brother 🎉</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #ffecd2, #fcb69f);
+        text-align: center;
+        color: #333;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        margin-top: 20px;
+    }
+
+    .emoji {
+        font-size: 40px;
+    }
+
+    button {
+        background: #ff6b6b;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #ff4b4b;
+    }
+
+    .hidden {
+        display: none;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 25px;
+        font-size: 14px;
+        color: #555;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🎉 Happy Birthday Brother 🎉</h1>
+
+    <div class="card">
+        <p class="emoji">🍕🍔🎂</p>
+
+        <p>
+            Happy Birthday to the best brother ever! <br><br>
+            Thank you for always being my personal chef who
+            magically gives me burgers 🍔 and pizzas 🍕
+            whenever I am hungry (or pretending to be hungry).
+        </p>
+
+        <button onclick="showMessage()">Click for Surprise 😄</button>
+
+        <p id="msg" class="hidden">
+            On your birthday, I officially declare that you must
+            continue supplying unlimited food, jokes, and happiness
+            for the rest of your life! 😄🎂
+        </p>
+    </div>
+
+    <footer>
+        Made with love by your favorite sibling ❤️
+    </footer>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("msg").style.display = "block";
+}
+</script>
+
+</body>
+</html>
